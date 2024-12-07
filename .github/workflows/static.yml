@@ -22,7 +22,7 @@ jobs:
       - name: Prepare Deployment Directory
         run: |
           mkdir -p ./_site
-          cp ./reports/qmd_example.html ./_site/index.html
+          cp ./reports/qmd_example.qmd ./_site/index.html
 
       # Step 3: Upload artifact for deployment
       - name: Upload Pages Artifact
